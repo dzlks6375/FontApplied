@@ -13,6 +13,7 @@
 		F4F5AEED262AF1B00088901D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F5AEEB262AF1B00088901D /* Main.storyboard */; };
 		F4F5AEEF262AF1B20088901D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F5AEEE262AF1B20088901D /* Assets.xcassets */; };
 		F4F5AEF2262AF1B20088901D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F5AEF0262AF1B20088901D /* LaunchScreen.storyboard */; };
+		F4F5AEFC262AF35B0088901D /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F4F5AEFA262AF1E30088901D /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F4F5AEEE262AF1B20088901D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4F5AEF1262AF1B20088901D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4F5AEF3262AF1B20088901D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F5AEFA262AF1E30088901D /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				F4F5AEEE262AF1B20088901D /* Assets.xcassets */,
 				F4F5AEF0262AF1B20088901D /* LaunchScreen.storyboard */,
 				F4F5AEF3262AF1B20088901D /* Info.plist */,
+				F4F5AEFA262AF1E30088901D /* Roboto-Bold.ttf */,
 			);
 			path = FontApplied;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F5AEFC262AF35B0088901D /* Roboto-Bold.ttf in Resources */,
 				F4F5AEF2262AF1B20088901D /* LaunchScreen.storyboard in Resources */,
 				F4F5AEEF262AF1B20088901D /* Assets.xcassets in Resources */,
 				F4F5AEED262AF1B00088901D /* Main.storyboard in Resources */,
