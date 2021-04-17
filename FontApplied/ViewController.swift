@@ -21,9 +21,19 @@ class ViewController: UIViewController {
         
         view.addSubview(label)
         
+        let button = UIButton(frame: CGRect(x: 0, y: 0, width: 200, height: 21))
+        button.center = CGPoint(x: CGFloat(view.center.x), y: CGFloat(view.center.y + 100))
+        button.titleLabel?.font = UIFont(name:"Roboto-Bold",size:20)
+        button.setTitle("This is Button", for: .normal)
+        button.addTarget(self, action: #selector(buttonAction), for: .touchUpInside)
+
+        view.addSubview(button)
+        
     }
 
-    
+    @objc func buttonAction(sender: UIButton!) {
+        print("Button Tapped")
+    }
 
 }
 
